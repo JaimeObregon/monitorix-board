@@ -1,1 +1,2 @@
-private/*.rrd
+httpdocs/images/charts/*.png
+private/rrd/*.rrd
