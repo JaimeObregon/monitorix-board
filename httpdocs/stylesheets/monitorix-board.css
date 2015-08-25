@@ -1,0 +1,290 @@
+@font-face {
+  font-family: 'aller_displayregular';
+  src: url('../fonts/aller/allerdisplay_std_rg-webfont.eot');
+  src: url('../fonts/aller/allerdisplay_std_rg-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/aller/allerdisplay_std_rg-webfont.woff') format('woff'),
+        url('../fonts/aller/allerdisplay_std_rg-webfont.ttf') format('truetype'),
+        url('../fonts/aller/allerdisplay_std_rg-webfont.svg#aller_displayregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'allerbold';
+  src: url('../fonts/aller/aller_std_bd-webfont.eot');
+  src: url('../fonts/aller/aller_std_bd-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/aller/aller_std_bd-webfont.woff') format('woff'),
+        url('../fonts/aller/aller_std_bd-webfont.ttf') format('truetype'),
+        url('../fonts/aller/aller_std_bd-webfont.svg#allerbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'allerbold_italic';
+  src: url('../fonts/aller/aller_std_bdit-webfont.eot');
+  src: url('../fonts/aller/aller_std_bdit-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/aller/aller_std_bdit-webfont.woff') format('woff'),
+        url('../fonts/aller/aller_std_bdit-webfont.ttf') format('truetype'),
+        url('../fonts/aller/aller_std_bdit-webfont.svg#allerbold_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'alleritalic';
+  src: url('../fonts/aller/aller_std_it-webfont.eot');
+  src: url('../fonts/aller/aller_std_it-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/aller/aller_std_it-webfont.woff') format('woff'),
+        url('../fonts/aller/aller_std_it-webfont.ttf') format('truetype'),
+        url('../fonts/aller/aller_std_it-webfont.svg#alleritalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'aller_lightregular';
+  src: url('../fonts/aller/aller_std_lt-webfont.eot');
+  src: url('../fonts/aller/aller_std_lt-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/aller/aller_std_lt-webfont.woff') format('woff'),
+        url('../fonts/aller/aller_std_lt-webfont.ttf') format('truetype'),
+        url('../fonts/aller/aller_std_lt-webfont.svg#aller_lightregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'aller_lightitalic';
+  src: url('../fonts/aller/aller_std_ltit-webfont.eot');
+  src: url('../fonts/aller/aller_std_ltit-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/aller/aller_std_ltit-webfont.woff') format('woff'),
+        url('../fonts/aller/aller_std_ltit-webfont.ttf') format('truetype'),
+        url('../fonts/aller/aller_std_ltit-webfont.svg#aller_lightitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'allerregular';
+  src: url('../fonts/aller/aller_std_rg-webfont.eot');
+  src: url('../fonts/aller/aller_std_rg-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/aller/aller_std_rg-webfont.woff') format('woff'),
+        url('../fonts/aller/aller_std_rg-webfont.ttf') format('truetype'),
+        url('../fonts/aller/aller_std_rg-webfont.svg#allerregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: 'aller_lightregular', Arial, sans-serif;  
+}
+
+strong {
+  font-family: 'allerbold', Arial, sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  float: left;
+  margin: 15px 0 10px 40px;
+  font-size: 200%;
+  color: white;  
+}
+
+div.jumbotron a {
+  color: white;
+  font-weight: bold;
+}
+
+div.navbar-inverse {
+  background: #924d8b url(../images/background.png) repeat;
+  border: none;
+}
+
+div.navbar-inverse a.navbar-brand {
+  color: white;
+  background: url(../images/logo.png) no-repeat;
+  text-indent: -999em;
+  margin-top: 10px;
+  width: 120px;
+}
+
+.navbar > .container .navbar-brand {
+  margin-left: 0;
+}
+
+div.jumbotron {
+  background: #924d8b url(../images/background.png) repeat;
+  color: white;
+}
+
+div.jumbotron p a {
+  text-decoration: underline;
+}
+
+div.jumbotron p a:hover {
+  color: white;
+}
+
+div.jumbotron img {
+  margin: auto;
+  display: block;
+}
+
+div.jumbotron ul.nav-tabs li:hover a {
+  color: black;
+}
+
+div.jumbotron div.tab-pane p {
+  background: #924d8b;
+  padding: 2em 0;
+}
+
+li.active {
+  font-weight: bold;
+}
+
+
+
+
+
+
+div.chart img {
+  width: 880px;
+  overflow: hidden;
+}
+
+div.chart p {
+  padding: 1em 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+.tabs-below > .nav-tabs,
+.tabs-right > .nav-tabs,
+.tabs-left > .nav-tabs {
+  border-bottom: 0;
+}
+
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+  display: none;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+  display: block;
+}
+
+.tabs-below > .nav-tabs {
+  border-top: 1px solid #ddd;
+}
+
+.tabs-below > .nav-tabs > li {
+  margin-top: -1px;
+  margin-bottom: 0;
+}
+
+.tabs-below > .nav-tabs > li > a {
+  -webkit-border-radius: 0 0 4px 4px;
+     -moz-border-radius: 0 0 4px 4px;
+          border-radius: 0 0 4px 4px;
+}
+
+.tabs-below > .nav-tabs > li > a:hover,
+.tabs-below > .nav-tabs > li > a:focus {
+  border-top-color: #ddd;
+  border-bottom-color: transparent;
+}
+
+.tabs-below > .nav-tabs > .active > a,
+.tabs-below > .nav-tabs > .active > a:hover,
+.tabs-below > .nav-tabs > .active > a:focus {
+  border-color: transparent #ddd #ddd #ddd;
+}
+
+.tabs-left > .nav-tabs > li,
+.tabs-right > .nav-tabs > li {
+  float: none;
+}
+
+.tabs-left > .nav-tabs > li > a,
+.tabs-right > .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+}
+
+.tabs-left > .nav-tabs {
+  float: left;
+  margin-right: 19px;
+  border-right: 1px solid #ddd;
+}
+
+.tabs-left > .nav-tabs > li > a {
+  margin-right: -1px;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
+}
+
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+}
+
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+  border-color: #ddd transparent #ddd #ddd;
+  *border-right-color: #ffffff;
+}
+
+.tabs-right > .nav-tabs {
+  float: right;
+  margin-left: 19px;
+  border-left: 1px solid #ddd;
+}
+
+.tabs-right > .nav-tabs > li > a {
+  margin-left: -1px;
+  -webkit-border-radius: 0 4px 4px 0;
+     -moz-border-radius: 0 4px 4px 0;
+          border-radius: 0 4px 4px 0;
+}
+
+.tabs-right > .nav-tabs > li > a:hover,
+.tabs-right > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #eeeeee #eeeeee #dddddd;
+}
+
+.tabs-right > .nav-tabs .active > a,
+.tabs-right > .nav-tabs .active > a:hover,
+.tabs-right > .nav-tabs .active > a:focus {
+  border-color: #ddd #ddd #ddd transparent;
+  *border-left-color: #ffffff;
+}
+
+
+
+
+ul#periods.nav {
+  margin-left: 11em;
+}
+
+ul#charts.nav li {
+  width: 11em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
