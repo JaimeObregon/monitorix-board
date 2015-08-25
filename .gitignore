@@ -1,2 +1,4 @@
 httpdocs/images/charts/*.png
+httpdocs/scripts/config.js
+private/cronjob.sh
 private/rrd/*.rrd
