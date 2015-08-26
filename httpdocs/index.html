@@ -10,13 +10,11 @@
     <link href="stylesheets/monitorix-board.css" rel="stylesheet">
     <script src="scripts/config.js"></script>
   </head>
-
   <body>
 
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="http://www.iteisa.com">ITEISA</a>
           <h1>{{title}}</h1>
         </div>
       </div>
@@ -37,7 +35,7 @@
 
             <div class="tab-content chart">
               <div class="tab-pane active" id="{{slug}}">
-                <p><img id="chart" src="{{filename}}" alt="{{name}}" /></p>
+                <p><img id="chart" src="{{filename}}" alt="{{name}}" width="960" height="450" /></p>
               </div>
             </div>
           </div> <!-- tabs-left -->
@@ -52,4 +50,3 @@
 
   </body>
 </html>
-

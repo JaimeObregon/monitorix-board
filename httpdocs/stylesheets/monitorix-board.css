@@ -89,7 +89,7 @@ strong {
 
 h1 {
   float: left;
-  margin: 15px 0 10px 40px;
+  /*margin: 15px 0 10px 40px;*/
   font-size: 200%;
   color: white;  
 }
@@ -119,6 +119,7 @@ div.navbar-inverse a.navbar-brand {
 div.jumbotron {
   background: #924d8b url(../images/background.png) repeat;
   color: white;
+  padding-top: 1em;
 }
 
 div.jumbotron p a {

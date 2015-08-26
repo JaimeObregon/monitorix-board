@@ -16,5 +16,8 @@ CONFIG = {
 		    'mail.mail_queued' : { icon: 'envelope',   name: 'Mails in queue' },
 		   'net.net0_bytes_in' : { icon: 'signal',     name: 'eth0 network traffic' },
 		    'mail.mail_queues' : { icon: 'send',       name: 'Mail queue size' },
+		  'fail2ban.fail2ban0' : { icon: 'eye-open',   name: 'Apache fail2ban' },
+		  'fail2ban.fail2ban1' : { icon: 'envelope',   name: 'Mail fail2ban' },
+		        'mysql.mysql4' : { icon: 'list-alt',   name: 'MySQL queries' },
 	},
 }
