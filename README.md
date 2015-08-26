@@ -30,8 +30,8 @@ Monitorix-board provides similar functionality to [Monitorix multihost](http://w
 ## How it works
 Monitorix' daemon collects system and services data in the background and stores their values in `.rrd` files, usually located under `/var/lib/monitorix/`. Monitorix-board consists of two parts:
 
-1. **A cronjob**, which fetches these databases periodically via ssh from the remote servers being monitored, and generates combined charts for every metric.
-2. **A client-side HTML5 website**, which generates a customizable dashboard in the user's browser, with the charts embedded.
+1. **A cronjob**, which fetches these databases periodically from the remote servers being monitored, and generates combined charts for every metric.
+2. **A HTML5 frontend**, which builds a customizable dashboard in the user's browser, with the charts embedded.
 
 
 ## Requeriments
@@ -52,10 +52,10 @@ Monitorix' daemon collects system and services data in the background and stores
 2. Rename `scripts/config.default.js` to `config.js` and customize it.
 3. Rename `private/cronjob.default.sh` to `cronjob.sh` and customize it.
 4. Set up your cronjob to run `private/cronjob.sh` every 15 minutes.
-5. Deploy Monitorix-board to a web host by just copying the `httpdocs` folder to your server's document root.
+5. Deploy Monitorix-board to a web host by just copying the contents of `httpdocs` to your server's document root.
 
 ## Important notes
 
-Be advised that you will be exposing your RRD databases to the world unless you have **set up your `iptables` or firewall to deny access to Monitorix to all IP addresses except your trusted network**.
+Be advised that you will be exposing your RRD databases to the world unless you have **set up your `iptables`, firewall or Monitorix' built-in web server to deny access to all IP addresses except these on your trusted network**.
 
-Fetching your RRD files and generating the charts may require a non-negligible amount of system resources, particularly bandwith and CPU usage. Thus, set up the cronjob to run on a conservative schedule (15 minutes by default).
+Fetching your RRD files and generating the charts may require a non-negligible amount of system resources, particularly bandwidth and CPU usage. Thus, set up the cronjob to run on a conservative schedule (15 minutes by default).
