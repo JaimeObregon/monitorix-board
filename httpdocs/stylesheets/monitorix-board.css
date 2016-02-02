@@ -80,6 +80,7 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
   font-family: 'aller_lightregular', Arial, sans-serif;  
+  background: #924d8b url(../images/background.png) repeat;
 }
 
 strong {
@@ -117,7 +118,7 @@ div.navbar-inverse a.navbar-brand {
 }
 
 div.jumbotron {
-  background: #924d8b url(../images/background.png) repeat;
+  background: transparent;
   color: white;
   padding-top: 1em;
 }
